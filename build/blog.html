@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Блог</title>
+    <link rel="stylesheet" type="text/css" href="/build/css/main.css" />
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,500,600,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800&amp;subset=cyrillic" rel="stylesheet">
+    <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU&amp;apikey=4dfe3b42-e416-4613-bd63-01482ae1d8ae" type="text/javascript"></script>
+    <script type="text/javascript" src="/build/js/jquery-3.3.1.min.js"></script>
+    
+</head>
+<body>
+    <header id="header" class="header">
+        <div class="container">
+            <div class="header-container">
+                <a href="#header" class="header__logo">
+                    <img src="/build/img/logo.png" alt="" class="header__img">
+                </a>
+                <div class="menu">
+                    <ul class="menu-list menu-list--hide">
+                        <li class="menu__item">
+                            <a href="/build/index.html#first-page" class="services__link">Главная</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="/build/index.html#services" class="services__link">Услуги</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="/build/index.html#order" class="services__link">Запись</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="/build/index.html#about" class="services__link">Обо мне</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="/build/index.html#blog" class="services__link">Блог</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="/build/index.html#contact-me" class="menu__link">Контакты</a>
+                        </li>
+                    </ul> 
+                    <div class="hamburger-container">
+                        <span class="hamburger__line hamburger__line--top"></span>
+                        <span class="hamburger__line hamburger__line--middle"></span>
+                        <span class="hamburger__line hamburger__line--bottom"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="blog blog--padding70">
+        <div class="container">
+            <h2 class="blog__header">
+                Блог
+            </h2>
+            <!-- <p class="blog__about">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut 
+                labore et dolore magna aliqua.</p> -->
+            <div class="blog__list">
+                <div class="blog__item blog__item--mb30px">
+                    <div class="blog__img">
+                        <img src="/build/img/content/b1.jpg" alt=""> 
+                    </div>
+                    <div id="article-1" class="blog__title">
+                        <a href="#" class="blog__title__name">
+                            Статья 1
+                        </a>
+                    </div>
+                    <div class="blog__abstract">
+                        Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Вдали от всех живут они в буквенных домах на берегу Семантика большого языкового океана. Маленький ручеек Даль журчит по всей стране и обеспечивает ее всеми необходимыми правилами. Эта парадигматическая страна, в которой жаренные члены предложения залетают прямо в рот. Даже всемогущая 
+                    </div>
+                    <div class="blog__btn-container btnReadMore">
+                        <a href="#" class="btn btn-blog-read-more">
+                            Читать подробнее
+                        </a>
+                    </div>
+                    <div class="blog__footer">
+                        <div class="blog__footer__left">    
+                            <div class="blog__footer__icon">
+                                <img src="/build/img/icons/user.png" alt="">
+                            </div>
+                            <div class="blog__footer__author">
+                                Алискандиева Т.
+                            </div> 
+                        </div>
+                        <div class="blog__footer__right">
+                            <div class="blog__footer__date">
+                                25 Сент.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="blog__item blog__item--mb30px">
+                    <div class="blog__img">
+                        <img src="/build/img/content/b1.jpg" alt=""> 
+                    </div>
+                    <div id="article-2" class="blog__title">
+                        <a href="#" class="blog__title__name">
+                            Статья 2
+                        </a>
+                    </div>
+                    <div class="blog__abstract">
+                        Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Вдали от всех живут они в буквенных домах на берегу Семантика большого языкового океана. Маленький ручеек Даль журчит по всей стране и обеспечивает ее всеми необходимыми правилами. Эта парадигматическая страна, в которой жаренные члены предложения залетают прямо в рот. Даже всемогущая 
+                    </div>  
+                    <div class="blog__btn-container btnReadMore">
+                        <a href="#" class="btn btn-blog-read-more">
+                            Читать подробнее
+                        </a>
+                    </div>
+                    <div class="blog__footer">
+                        <div class="blog__footer__left">    
+                            <div class="blog__footer__icon">
+                                <img src="/buid/img/icons/user.png" alt="">
+                            </div>
+                            <div class="blog__footer__author">
+                                Алискандиева Т.
+                            </div> 
+                        </div>
+                        <div class="blog__footer__right">
+                            <div class="blog__footer__date">
+                                25 Сент.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="blog__item blog__item--mb30px">
+                    <div class="blog__img">
+                        <img src="/build/img/content/b1.jpg" alt=""> 
+                    </div>
+                    <div id="article-3" class="blog__title">
+                        <a href="#" class="blog__title__name">
+                            Статья 3
+                        </a>
+                    </div>
+                    <div class="blog__abstract">
+                        Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Вдали от всех живут они в буквенных домах на берегу Семантика большого языкового океана. Маленький ручеек Даль журчит по всей стране и обеспечивает ее всеми необходимыми правилами. Эта парадигматическая страна, в которой жаренные члены предложения залетают прямо в рот. Даже всемогущая 
+                    </div>  
+                    <div class="blog__btn-container btnReadMore">
+                        <a href="#" class="btn btn-blog-read-more">
+                            Читать подробнее
+                        </a>
+                    </div>
+                    <div class="blog__footer">
+                        <div class="blog__footer__left">    
+                            <div class="blog__footer__icon">
+                                <img src="/build/img/icons/user.png" alt="">
+                            </div>
+                            <div class="blog__footer__author">
+                                Алискандиева Т.
+                            </div> 
+                        </div>
+                        <div class="blog__footer__right">
+                            <div class="blog__footer__date">
+                                25 Сент.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="blog__item blog__item--mb30px">
+                    <div class="blog__img">
+                        <img src="/build/img/content/b1.jpg" alt=""> 
+                    </div>
+                    <div id="article-4" class="blog__title">
+                        <a href="#" class="blog__title__name">
+                            Статья 4
+                        </a>
+                    </div>
+                    <div class="blog__abstract">
+                        Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Вдали от всех живут они в буквенных домах на берегу Семантика большого языкового океана. Маленький ручеек Даль журчит по всей стране и обеспечивает ее всеми необходимыми правилами. Эта парадигматическая страна, в которой жаренные члены предложения залетают прямо в рот. Даже всемогущая 
+                    </div>  
+                    <div class="blog__btn-container btnReadMore">
+                        <a href="#" class="btn btn-blog-read-more">
+                            Читать подробнее
+                        </a>
+                    </div>
+                    <div class="blog__footer">
+                        <div class="blog__footer__left">    
+                            <div class="blog__footer__icon">
+                                <img src="/build/img/icons/user.png" alt="">
+                            </div>
+                            <div class="blog__footer__author">
+                                Алискандиева Т.
+                            </div> 
+                        </div>
+                        <div class="blog__footer__right">
+                            <div class="blog__footer__date">
+                                25 Сент.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="blog__item blog__item--mb30px">
+                    <div class="blog__img">
+                        <img src="/build/img/content/b2.jpg" alt=""> 
+                    </div>
+                    <div id="article-5" class="blog__title">
+                        <a href="#" class="blog__title__name">
+                            Статья 5
+                        </a>
+                    </div>
+                    <div class="blog__abstract">
+                        Пунктуация не имеет власти над рыбными текстами, ведущими безорфографичный образ жизни. Однажды одна маленькая строчка рыбного текста по имени Lorem ipsum решила выйти в большой мир грамматики. Великий Оксмокс предупреждал ее о злых запятых, диких знаках вопроса и коварных точках с запятой, но текст не дал сбить себя с толку. Он собрал семь своих заглавных букв, подпоясал инициал за пояс и пустился в дорогу. Взобравшись на первую вершину курсивных гор, бросил он последний взгляд назад, на силуэт своего родного города
+                    </div>  
+                    <div class="blog__btn-container btnReadMore">
+                        <a href="#" class="btn btn-blog-read-more">
+                            Читать подробнее
+                        </a>
+                    </div>
+                    <div class="blog__footer">
+                        <div class="blog__footer__left">    
+                            <div class="blog__footer__icon">
+                                <img src="/build/img/icons/user.png" alt="">
+                            </div>
+                            <div class="blog__footer__author">
+                                Алискандиева Т.
+                            </div> 
+                        </div>
+                        <div class="blog__footer__right">
+                            <div class="blog__footer__date">
+                                25 Сент.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="blog__item blog__item--mb30px">
+                    <div class="blog__img">
+                        <img src="/build/img/content/b2.jpg" alt=""> 
+                    </div>
+                    <div id="article-6" class="blog__title">
+                        <a href="#" class="blog__title__name">
+                            Статья 6
+                        </a>
+                    </div>
+                    <div class="blog__abstract">
+                        Пунктуация не имеет власти над рыбными текстами, ведущими безорфографичный образ жизни. Однажды одна маленькая строчка рыбного текста по имени Lorem ipsum решила выйти в большой мир грамматики. Великий Оксмокс предупреждал ее о злых запятых, диких знаках вопроса и коварных точках с запятой, но текст не дал сбить себя с толку. Он собрал семь своих заглавных букв, подпоясал инициал за пояс и пустился в дорогу. Взобравшись на первую вершину курсивных гор, бросил он последний взгляд назад, на силуэт своего родного города
+                    </div>  
+                    <div class="blog__btn-container btnReadMore">
+                        <a href="#" class="btn btn-blog-read-more">
+                            Читать подробнее
+                        </a>
+                    </div>
+                    <div class="blog__footer">
+                        <div class="blog__footer__left">    
+                            <div class="blog__footer__icon">
+                                <img src="/build/img/icons/user.png" alt="">
+                            </div>
+                            <div class="blog__footer__author">
+                                Алискандиева Т.
+                            </div> 
+                        </div>
+                        <div class="blog__footer__right">
+                            <div class="blog__footer__date">
+                                25 Сент.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="blog__item blog__item--mb30px">
+                    <div class="blog__img">
+                        <img src="/build/img/content/b3.jpg" alt=""> 
+                    </div>
+                    <div id="article-7" class="blog__title">
+                        <a href="#" class="blog__title__name">
+                            Статья 7
+                        </a>
+                    </div>
+                    <div class="blog__abstract">
+                        Буквоград, на заголовок деревни Алфавит и на подзаголовок своего переулка Строчка. Грустный реторический вопрос скатился по его щеке и он продолжил свой путь. По дороге встретил текст рукопись. Она предупредила его: «В моей стране все переписывается по несколько раз. Единственное, что от меня осталось, это приставка «и». Возвращайся ты лучше в свою безопасную страну». Не послушавшись рукописи, наш текст продолжил свой путь. Вскоре ему повстречался коварный составитель
+                    </div>  
+                    <div class="blog__btn-container btnReadMore">
+                        <a href="#" class="btn btn-blog-read-more">
+                            Читать подробнее
+                        </a>
+                    </div>
+                    <div class="blog__footer">
+                        <div class="blog__footer__left">    
+                            <div class="blog__footer__icon">
+                                <img src="/build/img/icons/user.png" alt="">
+                            </div>
+                            <div class="blog__footer__author">
+                                Алискандиева Т.
+                            </div> 
+                        </div>
+                        <div class="blog__footer__right">
+                            <div class="blog__footer__date">
+                                25 Сент.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="blog__item blog__item--mb30px">
+                    <div class="blog__img">
+                        <img src="/build/img/content/b3.jpg" alt=""> 
+                    </div>
+                    <div id="article-8" class="blog__title">
+                        <a href="#" class="blog__title__name">
+                            Статья 8
+                        </a>
+                    </div>
+                    <div class="blog__abstract">
+                        Буквоград, на заголовок деревни Алфавит и на подзаголовок своего переулка Строчка. Грустный реторический вопрос скатился по его щеке и он продолжил свой путь. По дороге встретил текст рукопись. Она предупредила его: «В моей стране все переписывается по несколько раз. Единственное, что от меня осталось, это приставка «и». Возвращайся ты лучше в свою безопасную страну». Не послушавшись рукописи, наш текст продолжил свой путь. Вскоре ему повстречался коварный составитель
+                    </div> 
+                    <div class="blog__btn-container btnReadMore">
+                        <a href="#" class="btn btn-blog-read-more">
+                            Читать подробнее
+                        </a>
+                    </div>
+                    <div class="blog__footer">
+                        <div class="blog__footer__left">    
+                            <div class="blog__footer__icon">
+                                <img src="/build/img/icons/user.png" alt="">
+                            </div>
+                            <div class="blog__footer__author">
+                                Алискандиева Т.
+                            </div> 
+                        </div>
+                        <div class="blog__footer__right">
+                            <div class="blog__footer__date">
+                                25 Сент.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+        </div>
+        <script type="template" id="overlayTemplateBlog">
+            <div class="containerBlog">
+                <a class="closeBlogModal" href=""></a>
+                <div class="contentBlog">
+                    <div class="contentBlogTitle"></div>
+                    <div class="contentBlogText"></div>
+                </div>
+            </div>
+        </script>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__container">
+                <div class="footer__row footer__row--column">
+                    <div class="footer__contact-me">
+                        <div class="footer__contact-me__header">Связаться со мной</div>
+                        <div class="footer__contact-me__address">ул. Лаптиева, 55А, Махачкала, <br> Респ. Дагестан, 367018</div> 
+                        <h3 class="footer__contact-me__tel">8-988-123-45-67</h3>
+                        <ul class="footer__social">
+                            <li class="footer__social__item">
+                                <a href="#" class="footer__social__link">
+                                    <img src="/build/img/icons/insta-png.png" class="footer__social__img" alt="">
+                                </a>
+                            </li>
+                            <li class="footer__social__item">
+                                <a href="#" class="footer__social__link">
+                                    <img src="/build/img/icons/whats-png.png" class="footer__social__img" alt="">
+                                </a>
+                            </li>
+                            <li class="footer__social__item">
+                                <a href="#" class="footer__social__link">
+                                    <img src="/build/img/icons/telegram-png.png" class="footer__social__img" alt="">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer__newsletter">
+                        <div class="footer__newsletter__header">Новостная рассылка</div>
+                        <div class="footer__newsletter__about">Оставьте свой почтовый адрес и я буду <br> делиться с вами самой ценной информацией</div>
+                        <form action="#" class="newsletter-form">
+                            <div class="newsletter-form__email-container">
+                                <input type="email" placeholder="Введите email" class="newsletter-form__email" name="news-email" id="news-email">
+                                <button type="submit" class="newsletter-form__btn btn form__btn" name="news-btn" id="news-btn">Подписаться</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>           
+                <div class="footer__bottom">
+                    <div class="copyright">Copyright ©2019 All rights reserved </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="/build/js/main.js"></script>
+</body>
+</html> 

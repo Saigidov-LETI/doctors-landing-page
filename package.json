@@ -1,0 +1,25 @@
+{
+  "name": "doctor",
+  "version": "1.0.0",
+  "description": "doctor landing page",
+  "main": "index.html",
+  "devDependencies": {
+    "browser-sync": "^2.26.3",
+    "del": "^3.0.0",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-plumber": "^1.2.0",
+    "gulp-postcss": "^8.0.0",
+    "gulp-sass": "^4.0.1",
+    "npm": "^6.4.0",
+    "gulp": "^4.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Abdusalam",
+  "license": "ISC",
+  "dependencies": {
+    "gulp-concat": "^2.6.1"
+  }
+}

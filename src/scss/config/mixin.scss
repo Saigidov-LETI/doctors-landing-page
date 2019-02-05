@@ -1,0 +1,16 @@
+@function rem($px) {
+    @return $px / 16px + 0rem;
+}
+
+@function remp($px) {
+    @return $px / 13px + 0rem;
+}
+
+@function remt($px) {
+    @return $px / 15px + 0rem;
+}
+
+@mixin font-size($px) {
+    font-size: $px;
+    font-size: calculateRem($px);
+}

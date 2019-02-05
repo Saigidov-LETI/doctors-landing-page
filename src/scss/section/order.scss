@@ -1,0 +1,141 @@
+.order-container {
+    background-color: #222;
+    display: flex;
+
+    @include laptop {
+        flex-direction: column;
+    }
+}
+
+.order-left {
+    max-width: 50%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+    @include laptop {
+        max-width: 100%;
+    }
+}
+
+.order-img {
+    max-width: 100%;
+    height: auto;
+}
+
+.order-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    max-width: 50%;
+    padding-right: 15%;
+    padding-left: 5%;
+
+    @include desktop {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    @include laptop {
+        max-width: 100%;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+}
+
+.section-title {
+    // font-family: Poppins;
+    font-family: 'Open Sans', sans-serif;
+
+    font-size: rem(36px);
+    font-weight: 600;
+    line-height: 1.4;
+    margin-bottom: 45px;
+
+    @include desktop {
+        font-size: 20px;
+        text-align: center;
+        margin-bottom: -8px;
+    }
+
+    @include laptop {
+        font-size: 36px;
+        margin-bottom: 45px;
+        max-width: 40%;
+        text-align: left;
+    }
+}  
+
+.white-text {
+    color: #fff;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+
+    input[name="form__tel"]{
+        margin-right: 20px;
+
+        @include laptop {
+            margin-right: 0;
+        }
+    }
+
+    textarea {
+        resize: none;
+    }
+
+}
+
+input[name="form__tel"], input[name="form__date"] {
+        
+
+    @include laptop {
+        width: 100%;
+    }
+
+ 
+}
+
+.form__row {
+    display: flex;
+
+    @include laptop {
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+
+}
+
+.form__row--btn {
+    justify-content: flex-end;
+}
+
+.form__item {
+    width: 100%;
+    font-weight: 200;
+    border-radius: 0;
+    background-color: transparent;
+    border: 1px solid #656463;
+    color: #fff;
+    font-size: 14px;
+    padding: 12px;
+    transition: border-color ease-in-out 0.15s, 
+                box-shadow ease-in-out 0.15s;
+    margin-top: 20px;
+
+    &:focus {
+        outline: rgb(77, 144, 254) auto;
+    }
+}
+
+.form__btn {
+    background-image: -webkit-linear-gradient(0deg, #2380ff 0%, #52fdd9 100%);
+    margin-top: 20px;
+
+    &:hover {
+        color: #222;
+    }
+}
